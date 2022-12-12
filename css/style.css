@@ -1,0 +1,84 @@
+main{
+  background:linear-gradient(135deg, lightgrey, #8cb34e);
+}
+
+h2{
+  color: #627c37;
+  margin:0 auto;
+}
+
+.dc-card{
+  margin:10px;
+}
+
+.dc-green{
+  color:#627c37;
+}
+
+.dc-card h4{
+  color:#627c37;
+  font-size:98%;
+  text-align:right;
+  background:rgb(243, 243, 243);
+  display:inline-block;
+  padding:5px;
+  border-radius:5px;
+}
+
+.dc-card>img{
+  height:40%;
+}
+
+.dc-icon{
+  width:18%;
+  padding:5px;
+  height:auto;
+  text-align: center;
+  border-radius:50%;
+  border:1px solid lightgrey;
+  background-color:white;
+
+}
+
+.dc-icon>img{
+  max-width:100%;
+  height:auto;
+}
+
+.triangle {
+  width: 100px;
+  height: 100px;
+  border-left: solid 50px transparent;
+  border-top: solid 50px transparent;
+  border-bottom-right-radius: 5px;
+  position:absolute;
+  right:0;
+  bottom:0;
+
+}
+
+.triangle~div{
+  transform:rotate(316deg);
+  color:black;
+  position:absolute;
+  bottom:26px;
+  right:5px;
+  line-height:0.8rem;
+  font-size:80%;
+  color:white;
+}
+
+.available{
+  border-bottom: solid 50px #627c37;
+  border-right: solid 50px #627c37;
+}
+
+.not-available{
+  border-bottom: solid 50px rgb(200,30,50);
+  border-right: solid 50px rgb(200,30,50);
+}
+
+a.dc-green{
+  font-size:80%;
+
+}
